@@ -1,4 +1,4 @@
-import type { Package, Categories, Pagination } from '@/types/package'
+import type { Categories, Pagination } from '@/types/package'
 import type { Product } from './product'
 
 export interface PackageResponse {
@@ -8,7 +8,6 @@ export interface PackageResponse {
 
 export interface HomePageData {
   products: Product[]
-  packages: Package[]
   loading: boolean
 }
 
